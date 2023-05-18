@@ -11,7 +11,7 @@ package faces;
 public interface MessageListener {
     
     /**
-     * Callback to run when a message arrives.
+     * Callback to work when a message arrives.
      * 
      * @param msg message that has arrived.
      */

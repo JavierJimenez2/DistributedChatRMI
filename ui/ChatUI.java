@@ -132,7 +132,7 @@ public class ChatUI implements ChatUIFace
         this.model.server().set(server);
         this.defaultChannelName = defaultChannelName;
 
-        // All swing code must run inside swing single thread.
+        // All swing code must work inside swing single thread.
         //
         SwingUtilities.invokeLater( () -> {
             //
@@ -154,7 +154,7 @@ public class ChatUI implements ChatUIFace
      */
     public void show () {
 
-        // All swing code must run inside swing single thread.
+        // All swing code must work inside swing single thread.
         //
         SwingUtilities.invokeLater( () -> {
             mainFrame.setVisible (true);
