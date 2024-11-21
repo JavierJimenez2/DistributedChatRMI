@@ -33,6 +33,14 @@ The application consists of three main components:
 ### Optional Component
 - **ChatRobot**: A bot that connects to a channel and responds automatically to specific messages.
 
+## System Overview
+
+Below is a diagram illustrating the relationship between the main components: **ChatServer**, **ChatUser**, **ChatMessage**, and **NameServer**.
+
+![System Diagram](https://github.com/JavierJimenez2/DistributedChatRMI/blob/main/image.png)
+
+> Replace `path/to/diagram.png` with the actual path or URL of the diagram file once added.
+
 ## Prerequisites
 
 1. **Java Development Kit (JDK)** installed (version 8 or above).
