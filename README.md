@@ -39,8 +39,6 @@ Below is a diagram illustrating the relationship between the main components: **
 
 ![System Diagram](https://github.com/JavierJimenez2/DistributedChatRMI/blob/main/image.png)
 
-> Replace `path/to/diagram.png` with the actual path or URL of the diagram file once added.
-
 ## Prerequisites
 
 1. **Java Development Kit (JDK)** installed (version 8 or above).
